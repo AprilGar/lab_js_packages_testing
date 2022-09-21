@@ -12,7 +12,7 @@ const multiply = (a,b) => {
 
 const divide = (a,b) => {
    if (b === 0){
-    return console.error("Cannot divide by 0");
+    return "Cannot divide by 0";
    } else 
     return a / b;
 };
@@ -29,7 +29,7 @@ const even = (number) => {
 };
 
 const odd = (number) =>{
-    if (!number%2===0){
+    if (!(number%2===0)){
         return true;
     } else 
     return false;

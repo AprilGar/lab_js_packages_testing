@@ -83,7 +83,7 @@ describe('divide', () => {
   });
 
   test('cannot divide by 0',() => {
-    expected = console.error("Cannot divide by 0");
+    expected = "Cannot divide by 0";
     actual = divide(10,0);
     expect(actual).toBe(expected);
   });
